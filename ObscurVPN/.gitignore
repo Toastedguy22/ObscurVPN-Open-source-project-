@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.env
+*.conf
+*.key
+
+# Generated WireGuard server and client data
+wireguard-config/
+wireguard-lab/
+*.conf
+.env.*
+!.env.example
+
+# Build output
+dist/
